@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(fonts.css);
+@layer components{
+
+  .listitem{
+    @apply text-lightsaturate hover:text-shadedpink p-5  text-[1.5625rem]  leading-[1.5625rem];
+  }
+}
