@@ -8,4 +8,19 @@
   .listitem{
     @apply text-lightsaturate hover:text-shadedpink p-5  text-[1.5625rem]  leading-[1.5625rem];
   }
+  .logo{
+    @apply my-5 mx-4 py-2 px-3 transform  md:scale-90 items-center lg:transform-none lg:scale-0
+  }
+  .itemlink{
+    @apply text-sm font-Fraunces72ptsupersoft text-shadedorange mr-7 py-2 flex flex-col
+  }
+ 
+  .textbox{
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+  
 }
