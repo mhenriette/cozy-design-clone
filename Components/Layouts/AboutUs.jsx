@@ -5,8 +5,8 @@ import Logos from '../ui/Logos'
 export default function AboutUs() {
   return (
     <div className='bg-shaded bg-shadedpink bg-opacity-50  '>
-        <div className='mx-auto container  lg:px-32 py-24 flex flex-col lg:flex-row items-center '>
-          <div className='pl-[10vw] max-w-[800px] my-28 pr-[30px]'>
+        <div className='mx-auto container  lg:px-32 py-24 flex flex-col lg:flex-row items-center drive '>
+          <div className='pl-[10vw] max-w-[800px] my-28 pr-[30px] '>
             <div><p className='mb-[16px] text-darkblue text-[30px] font-Geomanist'>🌴🐻🇺🇸</p></div>
             <h1 className='text-darkblue font-Fraunces72ptsupersoft text-[70px] font-bold  mt-[40px] mb-[10px] '>Get Cozy</h1>
             <h3 className='text-lightorange font-Fraunces72ptsupersoft text-[37px]'>Design &amp;&nbsp;digital marketing <br></br> in San Diego, California</h3>

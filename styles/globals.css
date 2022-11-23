@@ -22,5 +22,44 @@
       transform: translate(-50%, -50%);
       text-align: center;
   }
+  /* .btn{
+    transition: 2s;
+
+    
+
+  }
+  .btn:hover{
+    background-color: indigo;
+    transform: rotate(180deg);
+    transition-timing-function: ease-in-out;
+    
   
+  } */
+/* .drive{
+  animation-name: drive;
+  animation-duration: 5s;
+ 
+}
+@keyframes drive{
+  from{ transform: translateY(hidden);}
+  to{transform: translateY(0%);}
+} */
+/* .anim{
+  animation-name: movetop;
+  animation-duration: 1s;
+
+
+}
+  
+
+@keyframes movetop{
+  0%{
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0);
+  }
+} */
 }

@@ -4,9 +4,9 @@ import Buttons from '../ui/Buttons'
 export default function HeroSection() {
   return (
   <div className='bg-gradient-to-r from-redblue to-darkblue overflow-y-hidden  '>
-    <div className=' lg:relative mx-auto px-14 container lg:flex items-end  lg:gap-20 overflow-hidden '>
+    <div className=' lg:relative mx-auto px-14 container lg:flex items-end  lg:gap-20 overflow-hidden anim '>
       
-        <div className=' mb-8 sm:w-[525px] md:w-[570px] lg:w-1/2 self-start  '>
+        <div className=' mb-8 sm:w-[525px] md:w-[570px] lg:w-1/2 self-start  drive'>
           <h1 className='text-start text- pt-[0.625rem]  pb-[0.625rem] mb-[1.25rem] text-transparent  bg-clip-text bg-opacity-95  bg-shadedpink bg-shaded  text-[3.75rem] leading-[1.1em]  font-Fraunces144ptsupersoft font-bold md:text-8xl  md:mt-20 md:mb-5'>
             Your design <br></br> team for the cost of a  salary.
           </h1>
