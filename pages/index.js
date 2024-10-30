@@ -25,7 +25,7 @@ export default function Home() {
       <Advert/>
       <Designer/>
       <Help/>
-      {/* <Footer/> */}
+      <Footer/>
       </>
  
       

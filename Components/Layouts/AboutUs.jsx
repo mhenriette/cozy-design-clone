@@ -4,7 +4,7 @@ import Logos from '../ui/Logos'
 
 export default function AboutUs() {
   return (
-    <div className='bg-shaded bg-shadedpink bg-opacity-50  '>
+    <div className='bg-shaded bg-shadedpink bg-opacity-50' id="getcozy">
         <div className='mx-auto container  lg:px-32 py-24 flex flex-col lg:flex-row items-center drive '>
           <div className='pl-[10vw] max-w-[800px] my-28 pr-[30px] '>
             <div><p className='mb-[16px] text-darkblue text-[30px] font-Geomanist'>🌴🐻🇺🇸</p></div>

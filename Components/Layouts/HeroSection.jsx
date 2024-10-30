@@ -3,7 +3,7 @@ import Buttons from '../ui/Buttons'
 
 export default function HeroSection() {
   return (
-  <div className='bg-gradient-to-r from-redblue to-darkblue overflow-y-hidden  '>
+  <div className='bg-gradient-to-r from-redblue to-darkblue overflow-y-hidden pt-10'>
     <div className=' lg:relative mx-auto px-14 container lg:flex items-end  lg:gap-20 overflow-hidden anim '>
       
         <div className=' mb-8 sm:w-[525px] md:w-[570px] lg:w-1/2 self-start  drive'>

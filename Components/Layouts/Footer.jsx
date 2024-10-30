@@ -6,18 +6,9 @@ import Media from '../ui/Media'
 export default function Footer() {
   return (
     <footer className='bg-lightsaturate'>
-        <div className=' mx-auto px-6 container'>
-          {/* section 1 */}
+        <div className='mx-auto px-6 container'>
           <div className='flex flex-col justify-center items-center py-12'>
-            {/* logo */}
           <div className='px-4 py-8'> <Image src='/logodark.svg' alt='logodark' width='73' height='50' /></div>
-             <nav className=''>
-                <Link href='/About' className='itemlink'><p>About</p></Link>
-                <Link href='/About' className='itemlink'><p>Services</p></Link>
-                <Link href='/About' className='itemlink'><p>Work</p></Link>
-                <Link href='/About' className='itemlink'><p>Blog</p></Link>
-                <Link href='/About' className='itemlink'><p>Contact</p></Link>
-            </nav>
           
         
             <div className='flex flex-col items-center gap-4 mt-8'>
@@ -37,9 +28,8 @@ export default function Footer() {
               </nav>
             </div>
             </div>
-            {/* section 2 */}
-            <div className='mx-3 mt-6 py-5 border-t-2 border-shadedpink '>
-              <div className='py-3 grid grid-cols-2 grid-rows-2 gap-8 '>
+            <div className='mx-3 mt-6 py-5 border-t-2 border-shadedpink w-full '>
+              <div className='py-3 flex justify-between items-center flex-col gap-3 md:flex-row'>
                   <div className='flex flex-col items-center h-full justify-end'>
                       <Image src='/logo5.svg'
                         width='140'
@@ -50,10 +40,7 @@ export default function Footer() {
                       <p className='text-darkblue font-Fraunces72ptsupersoft text-sm font-bold'>BBB rating: A+</p>
                   </div>
                   <Image src='/bureau.png' alt='bureau' width='140' height='74' priority/>
-                  {/* <div className=' flex flex-col w-full items-center justify-center'> */}
-               
-                      <div className='row-start-2 row-end-3 ml-4  col-start-1 col-end-3 bg-white rounded-tr-[25px] rounded-bl-[25px] overflow-hidden flex items-center pr-5 w-52 h-[50px] '>
- 
+                      <div className='row-start-2 row-end-3 ml-4  col-start-1 col-end-3 bg-white rounded-tr-[25px] rounded-bl-[25px] overflow-hidden flex items-center pr-5 w-52 h-[50px]'>
                       <div className='aspect-square flex items-center justify-center h-full relative  bg-darkblue rounded-tr-[25px]'>
 
                       <Image className='' alt='c icon' src='/clut.svg' width={25} height={25}/>
@@ -69,8 +56,6 @@ export default function Footer() {
                         <Link href='/' className='text-[8px] tracking-[-.2px] mt-1 whitespace-nowrap text-dark-600 hover:underline '>Based on 16 Clutch reviews</Link>
                       </div>
                       </div>
-                      {/* </div> */}
-
               </div>
               <div>
                 <p></p>

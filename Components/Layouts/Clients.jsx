@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Clients() {
   return (
-    <div className='bg-lightsaturate py-32  '>
+    <div className='bg-lightsaturate py-32' id="ourclients">
       <div className='mx-auto container px-5 w-full '>
         <div className='flex justify-center flex-col items-center mb-11 px-2'>
             <p className=' text-lg md:text-7xl mt-16 mb-11 font-semibold text-center  font-Fraunces72ptsupersoft text-darkblue'>❤️ from our clients</p>

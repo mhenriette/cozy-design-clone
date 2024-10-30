@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Designer() {
   return (
-    <div className='relative overflow-hidden h-auto  '>
+    <div className='relative overflow-hidden h-auto' id="adverts">
         <video
         autoPlay
         loop
